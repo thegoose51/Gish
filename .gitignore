@@ -1,0 +1,6 @@
+*.exe
+CaddyFile
+/build
+/dist
+.vscode
+*.log
