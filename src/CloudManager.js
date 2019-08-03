@@ -7,7 +7,7 @@ class CloudManager
         window.setInterval(function()
         {
             const sprite = (Math.random() > 0.5 ? "cloud_1" : "cloud_2");
-            this.cloud = new PIXI.Sprite(PIXI.loader.resources["../assets/" + sprite + ".png"].texture);
+            this.cloud = new PIXI.Sprite(PIXI.loader.resources["./assets/" + sprite + ".png"].texture);
             this.cloud.anchor.set(0.5, 0.5);
             this.cloud.position.set(app.renderer.width * 1.3, app.renderer.height * Math.random());
 

@@ -20,10 +20,10 @@ let cloudManager;
 let player;
 
 PIXI.loader.add([
-    "../assets/cloud_1.png",
-    "../assets/cloud_2.png",
-    "../assets/misha.png",
-    "../assets/rocket.png"
+    "./assets/cloud_1.png",
+    "./assets/cloud_2.png",
+    "./assets/enemy.png",
+    "./assets/rocket.png"
 ]).load(init);
 
 function init()

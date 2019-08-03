@@ -2,7 +2,7 @@ class Player
 {
     constructor()
     {
-        this.sprite = new PIXI.Sprite(PIXI.loader.resources["../assets/misha.png"].texture);
+        this.sprite = new PIXI.Sprite(PIXI.loader.resources["./assets/enemy.png"].texture);
 
         this.sprite.anchor.set(0.5, 0.5);
         this.sprite.position.set(app.renderer.width * 0.2, app.renderer.height * 0.4);

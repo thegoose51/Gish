@@ -7,7 +7,7 @@ class Rocket
 
     constructor(x, y)
     {
-        this.sprite = new PIXI.Sprite(PIXI.loader.resources["../assets/rocket.png"].texture);
+        this.sprite = new PIXI.Sprite(PIXI.loader.resources["./assets/rocket.png"].texture);
 
         this.sprite.anchor.set(0.5, 0.5);
         this.sprite.position.set(x + 50, y);
